@@ -1,7 +1,7 @@
 #35 Search Insert Position
 # retourne la position de l'entier dans la liste trié dans l'ordre croissant
 
-def searchInsert(self, nums, target):
+def searchInsert(nums, target):
     i = 0
     while nums[i] < target:
         i+=1

@@ -1,7 +1,7 @@
 #223. Rectangle Area
 #Retourne l'air de l'union de 2 rectangles
 
-def is_inter(self,a,b):
+def is_inter(a,b):
     c = max(min(a),min(b))
     if c in a:
         if c<=max(b) and c>=min(b):
@@ -11,7 +11,7 @@ def is_inter(self,a,b):
             return True
     return False
 
-def computeArea(self,ax1, ay1, ax2, ay2, bx1, by1, bx2, by2):
+def computeArea(ax1, ay1, ax2, ay2, bx1, by1, bx2, by2):
     L1 = [ax1,ax2]
     L1.sort()
     L2 = [bx1,bx2]
@@ -26,3 +26,4 @@ def computeArea(self,ax1, ay1, ax2, ay2, bx1, by1, bx2, by2):
             air_inter = abs(max(min(L1),min(L2))-min(max(L1),max(L2))) * abs(max(min(l1),min(l2))-min(max(l1),max(l2)))
             return abs(ax1-ax2)*abs(ay1-ay2) + abs(bx1-bx2)*abs(by1-by2) - air_inter
     return abs(ax1-ax2)*abs(ay1-ay2) + abs(bx1-bx2)*abs(by1-by2)
+

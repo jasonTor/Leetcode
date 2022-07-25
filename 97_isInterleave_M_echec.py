@@ -1,6 +1,6 @@
 #97 isInterleave
 
-def isInterleave(self, s1, s2, s3):
+def isInterleave(s1, s2, s3):
         m, n = len(s1), len(s2)
         if m + n != len(s3):
             return False

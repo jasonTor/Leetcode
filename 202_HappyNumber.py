@@ -1,7 +1,7 @@
 #202. Happy Number
 
 from math import sqrt
-def isHappy(self, n):
+def isHappy(n):
     """
     :type n: int
     :rtype: bool

@@ -1,6 +1,6 @@
 #561. Array Partition
 
-def arrayPairSum(self, nums):
+def arrayPairSum(nums):
     nums.sort()
     l = []
     for i in range(len(nums)//2):

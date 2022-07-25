@@ -1,6 +1,6 @@
 #520. Detect Capital
 
-def detectCapitalUse(self, word):
+def detectCapitalUse(word):
     temp = word
     temp2 = list(temp.lower())
     temp2[0] = temp2[0].upper()

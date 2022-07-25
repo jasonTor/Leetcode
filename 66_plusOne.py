@@ -13,4 +13,3 @@ def plusOne1(digits):
 #De manière plus puissante
 def plusOne2(digits):
     return [int(j) for j in str(int("".join([str(i) for i in digits])) + 1)]
-

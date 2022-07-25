@@ -1,6 +1,6 @@
 #205. Isomorphic Strings
 
-def isIsomorphic(self, s, t):
+def isIsomorphic(s, t):
     if len(s) != len(t):
         return False
     d = {}

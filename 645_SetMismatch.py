@@ -1,6 +1,6 @@
 #645. Set Mismatch
 
-def findErrorNums(self,nums):
+def findErrorNums(nums):
     L = [0 for i in range(len(nums))]
     for i in nums:
         L[i-1]+=1
